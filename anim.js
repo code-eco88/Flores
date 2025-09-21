@@ -35,7 +35,9 @@ var lyricsData = [
 
 ];
 
-// Animar las letras
+
+
+// Animar las letras 
 function updateLyrics() {
   var time = Math.floor(audio.currentTime);
   var currentLine = lyricsData.find(
